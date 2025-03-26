@@ -27,7 +27,7 @@ cd /var/www
 git config core.fileMode false
 
 # update me
-aws s3 cp s3://tci-s3-demo-032125/simple-flask/.env .env
+aws s3 cp s3://tci-s3-demo-210325/simple-flask/.env .env
 
 chmod +x scripts/post_userdata.sh
 
